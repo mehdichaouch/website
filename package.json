@@ -1,0 +1,21 @@
+{
+    "name": "particle",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "gulp"
+    },
+    "author": "ADVOCODO",
+    "license": "MIT",
+    "dependencies": {
+        "browser-sync": "^2.26.14",
+        "gulp": "^4.0.2",
+        "gulp-concat": "^2.6.1",
+        "gulp-csso": "^4.0.1",
+        "gulp-dart-sass": "^1.0.2",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-uglify": "^3.0.2"
+    }
+}
