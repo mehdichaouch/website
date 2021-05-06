@@ -23,7 +23,7 @@ function decode(a) {
 }
 
 function openMailer(element, email) {
-    var y = decode('znvygb:' + email);
+    let y = decode('znvygb:' + email);
     element.setAttribute('href', y);
     element.setAttribute('onclick', '');
     element.firstChild.nodeValue = 'Open email software';

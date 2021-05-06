@@ -1,17 +1,17 @@
 'use strict';
 
-var browserSync = require('browser-sync');
-var gulp = require('gulp');
-var concat = require('gulp-concat');
-var csso = require('gulp-csso');
-var sass = require('gulp-dart-sass');
-var imagemin = require('gulp-imagemin');
-var plumber = require('gulp-plumber');
-var uglify = require('gulp-uglify');
+let browserSync = require('browser-sync');
+let gulp = require('gulp');
+let concat = require('gulp-concat');
+let csso = require('gulp-csso');
+let sass = require('gulp-dart-sass');
+let imagemin = require('gulp-imagemin');
+let plumber = require('gulp-plumber');
+let uglify = require('gulp-uglify');
 
-var cp = require('child_process');
+let cp = require('child_process');
 
-var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
+let jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
 
 /*
  * Build the Jekyll Site
