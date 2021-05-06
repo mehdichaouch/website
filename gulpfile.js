@@ -98,6 +98,15 @@ gulp.task('particlejs', function() {
         .pipe(gulp.dest('assets/js/'))
 });
 
+/**
+ * Copy favicon
+ */
+gulp.task('favicon', function() {
+    return gulp.src('src/favicon/**/*.{ico,png,svg}')
+        .pipe(plumber())
+        .pipe(gulp.dest('assets/favicon/'))
+});
+
 gulp.task('watch', function() {
     gulp.watch('src/styles/**/*.scss', gulp.series(['sass', 'jekyll-rebuild']));
     gulp.watch('src/js/**/*.js', gulp.series(['js', 'jekyll-rebuild']));
@@ -107,4 +116,4 @@ gulp.task('watch', function() {
     gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], gulp.series(['jekyll-rebuild']));
 });
 
-gulp.task('default', gulp.series(['js', 'particlejs', 'sass', 'fonts', 'browser-sync', 'watch']));
+gulp.task('default', gulp.series(['js', 'particlejs', 'sass', 'fonts', 'favicon', 'browser-sync', 'watch']));
