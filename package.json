@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "gulp"
+        "dev": "gulp",
+        "preinstall": "npx npm-force-resolutions"
     },
     "author": "ADVOCODO",
     "license": "MIT",
@@ -16,7 +17,11 @@
         "gulp-dart-sass": "^1.0.2",
         "gulp-imagemin": "^7.1.0",
         "gulp-plumber": "^1.2.1",
-        "gulp-uglify": "^3.0.2",
-        "hosted-git-info": "^4.0.2"
+        "gulp-uglify": "^3.0.2"
+    },
+    "resolutions": {
+        "css-what": "^5.0.1",
+        "glob-parent": "^5.1.2",
+        "trim-newlines": "^3.0.1"
     }
 }
