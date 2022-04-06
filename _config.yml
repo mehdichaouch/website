@@ -1,26 +1,21 @@
-# Site settings
-title: "ADVOCODO - Tiny Digital Agency"
-description: "ADVOCODO - Tiny Digital Agency"
-#baseurl: "/particle" # the subpath of your site, e.g. /blog
-url: "https://advocodo.com"
-#url: "http://localhost:3000" # the base hostname & protocol for your site
-
-# User settings
-username: "ADVOCODO"
+title: ADVOCODO - Tiny Digital Agency PLOP
+description: ADVOCODO - Tiny Digital Agency
+url: 'https://advocodo.com'
+username: ADVOCODO
 logo: '<img src="https://avatars.githubusercontent.com/u/19282864" alt="ADVOCODO">'
-user_description: "Plus de 10 ans d’xp en PHP dans l’e-commerce avec du Symfony, du Magento, du WooCommerce.<br>
-<br>
-Lancement de webshop de 0 à 1 avec intervention sur toute la stack technique, ou renfort dans des équipes tech sur des sujets précis.<br>
-<br>
-À votre disposition pour étudier vos besoins."
-user_title: "𝐏𝐇𝐏 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 🤖<br>Magento - Symfony"
-email: "uryyb@nqibpbqb.pbz"
-linkedin_username: "advocodo"
-github_username: "advocodo"
-twitter_username: "ADVOCODO"
-
-# Google-analytics
+user_description: >-
+  Plus de 10 ans d’xp en PHP dans l’e-commerce avec du Symfony, du Magento, du
+  WooCommerce.<br> <br> Lancement de webshop de 0 à 1 avec intervention sur
+  toute la stack technique, ou renfort dans des équipes tech sur des sujets
+  précis.<br> <br> À votre disposition pour étudier vos besoins.
+user_title: "\U0001D40F\U0001D407\U0001D40F \U0001D403\U0001D41E\U0001D42F\U0001D41E\U0001D425\U0001D428\U0001D429\U0001D41E\U0001D42B \U0001F916<br>Magento - Symfony"
+email: uryyb@nqibpbqb.pbz
+linkedin_username: advocodo
+github_username: advocodo
+twitter_username: ADVOCODO
 google-analytics:
-  id: "G-ESSEN3K0ZZ"
-
-exclude: ['package.json', 'src' , 'node_modules']
+  id: G-ESSEN3K0ZZ
+exclude:
+  - package.json
+  - src
+  - node_modules
